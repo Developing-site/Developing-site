@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Weapons</title>
+</head>
+
+<style>
+:root{
+  --bg:#111823;
+  --accent:#e61b3c;
+  --text:#fff;
+}
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 24px;
+  background: linear-gradient(135deg, #0b1020 0%, #171f33 45%, #2b1338 100%);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(230,27,60,.18), transparent 35%),
+  radial-gradient(circle at bottom right, rgba(84,112,255,.16), transparent 30%);
+  pointer-events: none;
+  z-index: -1;
+  animation: drift 12s ease-in-out infinite alternate;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  text-align: center;
+  background: rgba(17,24,35,.95);
+  border: 2px solid rgba(255,255,255,.12);
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+}
+table, th, td {
+  border: 1px solid rgba(255,255,255,.12);
+}
+th, td {
+  padding: 12px;
+  vertical-align: middle;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+th:hover, td:hover {
+  background-color: rgba(255,255,255,.08);
+  transform: scale(1.01);
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 16px;
+  background: rgba(255,255,255,.12);
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,.24);
+  border-radius: 10px;
+  transition: background .18s ease, transform .18s ease;
+}
+.back-button:hover {
+  background: rgba(255,255,255,.18);
+  transform: translateY(-1px);
+}
+</style>
+
+<body>
+    <a class="back-button" href="./home.html">← Back to Home</a>
+    <table>
+  <tr>
+    <th>NAME</th>
+    <th>WEAPONS</th>
+    <th>DESCRIPTION</th>
+  </tr>
+   <td>Stinger</td>
+   <td><img src="https://static.wikia.nocookie.net/valorant/images/b/b6/Stinger.png/revision/latest?cb=20230711205306" width="300"></td>
+   <td>The Stinger is a low-cost SMG. It has two firing modes, a standard automatic single-bullet primary fire and a semi-automatic burst-mode alternate fire that fires four bullets in a burst at around an eighth of its usual fire rate.</td>
+</tr>
+  <tr>
+    <td>Spectre</td>
+    <td><img src="https://static.wikia.nocookie.net/valorant/images/9/90/Spectre.png/revision/latest?cb=20230711205305" width="300"></td>
+    <td>The Spectre is a moderately-priced SMG. Equipped with a large magazine and a silencer, it can be used to spam through vision blockers without much risk to the player's ammo count or positioning.</td>
+  </tr>
+
+</table>
+</body>
+</html>

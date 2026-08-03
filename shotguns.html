@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Weapons</title>
+</head>
+
+<style>
+:root{
+  --bg:#111823;
+  --accent:#e61b3c;
+  --text:#fff;
+}
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 24px;
+  background: linear-gradient(135deg, #0b1020 0%, #171f33 45%, #2b1338 100%);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(230,27,60,.18), transparent 35%),
+  radial-gradient(circle at bottom right, rgba(84,112,255,.16), transparent 30%);
+  pointer-events: none;
+  z-index: -1;
+  animation: drift 12s ease-in-out infinite alternate;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  text-align: center;
+  background: rgba(17,24,35,.95);
+  border: 2px solid rgba(255,255,255,.12);
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+}
+table, th, td {
+  border: 1px solid rgba(255,255,255,.12);
+}
+th, td {
+  padding: 12px;
+  vertical-align: middle;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+th:hover, td:hover {
+  background-color: rgba(255,255,255,.08);
+  transform: scale(1.01);
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 16px;
+  background: rgba(255,255,255,.12);
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,.24);
+  border-radius: 10px;
+  transition: background .18s ease, transform .18s ease;
+}
+.back-button:hover {
+  background: rgba(255,255,255,.18);
+  transform: translateY(-1px);
+}
+</style>
+
+<body>
+    <a class="back-button" href="./home.html">← Back to Home</a>
+    <table>
+  <tr>
+    <th>NAME</th>
+    <th>WEAPONS</th>
+    <th>DESCRIPTION</th>
+  </tr>
+   <td>Bucky</td>
+   <td><img src="https://static.wikia.nocookie.net/valorant/images/e/eb/Bucky.png/revision/latest?cb=20230711205254" width="300"></td>
+   <td>The Bucky is a low-cost shotgun and the cheapest primary weapon in the game. It has two firing modes, a standard single-shell primary fire and a canister alternate fire that allows the shell to travel a short distance before spraying its pellets instead of immediately spraying from the barrel of the gun, allowing the user to deal some damage to targets at medium range. Shells shot using Alternate Fire only produce a reduced amount of pellets however, and enemies hit by the canister before it reaches the required distance to explode will only take 1 pellet worth of damage.</td>
+</tr>
+  <tr>
+    <td>Judge</td>
+    <td><img src="https://static.wikia.nocookie.net/valorant/images/8/8a/Judge.png/revision/latest?cb=20230711205259" width="300"></td>
+    <td>The Judge is a moderately-priced automatic shotgun. It is best used in situations that put the user in close range against multiple enemies, being able to wipe them out quickly should they risk not clearing such small areas beforehand. As with all shotguns, the Judge has pellet spread that can be reduced by crouching, though the spread still makes it effectively useless at long ranges no matter what. Unlike the other shotguns however, the Judge does not have a distance cap on its pellets and can hit enemies beyond 50 meters.</td>
+  </tr>
+
+</table>
+</body>
+</html>
