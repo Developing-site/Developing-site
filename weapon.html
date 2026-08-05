@@ -23,9 +23,28 @@ body::before{content:"";position:fixed;inset:0;background:rgba(5,8,15,.55);point
 .nav-links a{color:var(--text);text-decoration:none;padding:8px 12px;border-radius:6px;transition:background .18s,transform .12s;cursor:pointer;display:inline-block}
 .nav-links a:hover{background:rgba(255,255,255,.06);transform:translateY(-2px)}
 .nav-links a:focus{outline:2px solid rgba(255,255,255,.06);outline-offset:2px}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 16px;
+  background: rgba(255,255,255,.12);
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,.24);
+  border-radius: 10px;
+  transition: background .18s ease, transform .18s ease;
+}
+.back-button:hover {
+  background: rgba(255,255,255,.18);
+  transform: translateY(-1px);
+}
 </style>
 
 <body>
+    <a class="back-button" href="./index.html">← Back to Home</a>
+    
     <nav class="navbar" role="navigation" aria-label="Main Navigation">
         <span class="brand"><span class="logo"><img src="https://www.pngall.com/wp-content/uploads/13/Valorant-Logo-PNG-File.png" alt="Valorant logo"></span><span class="brand-text">VALORANT WEAPONS</span></span>
         <ul class="nav-links">
