@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Maps</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+    <div class="map-container">
+
+        <h1>Valorant Maps</h1>
+
+        <!-- SEARCH BAR GOES HERE -->
+        <div class="search-container">
+            <input
+                type="text"
+                id="searchBar"
+                placeholder="🔍 Search a Valorant map..."
+                onkeyup="searchMaps()">
+        </div>
+        <div class="map-grid">
+
+        <div class="map-card">
+    </div>
+    <a class="back-button" href="./Main.html">← Back to Home</a>
+    <table>
+  <tr>
+    <th>NAME</th>
+    <th>MAPS</th>
+    <th>DESCRIPTION</th>
+  </tr>
+   <td>Summit</td>
+   <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/36a3f67d05cd359fa6c3a4c1fea3ba6ed84cbc2e-515x515.jpg?accountingTag=VAL&auto=format&fit=fill&q=80&w=515" width="5000px;" height="5000px;"></td>
+   <td>Climb onto Summit: home to the most advanced Radiant training academy in all of China. Maximize your strategic potential in a map with massive, droppable walls that change the layout of the battlefield for an entire round</td>
+   <tr>
+    <td>Corrode</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/90666c45369269a33eebddc363b250dbc7d61a34-515x515.jpg?accountingTag=VAL&auto=format&fit=fill&q=80&w=515" width="5000px;" height="5000px;"></td>
+    <td>A French castle town turned radianite salt mining facility. Siege your way through medieval streets, exploiting repurposed industrial machinery to battle across layered defenses in this traditional three lane map.</td>
+   </tr>
+   <tr>
+    <td>Abyss</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/ffa08e5d943b92543bf8110ab07d921f6e6c1eb5-515x515.png?accountingTag=VAL&auto=format&fit=fill&q=80&w=515" width="5000px;" height="5000px;"></td>
+    <td>Gaze into the Abyss, a clandestine base buried deep within an impenetrable and endless chasm. Utilize death drops for clever new utility plays or to invite your enemies to take a plunge. High risk can grant high rewards you just gotta nail the execution.</td>
+   </tr>
+    <tr>
+    <td>Sunset</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/699c33a4ee5f5daf71e87c0f3bf6ddf6995b4bb3-2000x2000.jpg?accountingTag=VAL&auto=format&fit=fill&q=80&w=1781" width="5000px;" height="5000px;"></td>
+    <td>A disaster at a local kingdom facility threatens to engulf the whole neighborhood. Stop at your favorite food truck then fight across the city in this traditional three lane map.</td>
+   </tr>
+    <tr>
+    <td>Lotus</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/a660e638ac2a27d458ef22a6db17b3e372137d09-1873x1873.jpg?accountingTag=VAL&auto=format&fit=fill&q=80&w=1781" width="5000px;" height="5000px;"></td>
+    <td>A mysterious structure housing an astral conduit radiates with ancient power. Great stone doors provide a variety of movement opportunities and unlock the paths to three mysterious sites</td>
+   </tr>
+    <tr>
+    <td>Pearl</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/0c05fb9a4aa08553afb85842f91fad6f9d3fe87e-515x515.png?accountingTag=VAL&auto=format&fit=fill&q=80&w=515" width="5000px;" height="5000px;"></td>
+    <td>Attackers push down into the Defenders on this two-site map set in a vibrant, underwater city. Pearl is a geo-driven map with no mechanics. Take the fight through a compact mid or the longer range wings in our first map set in Omega Earth</td>
+   </tr>
+    <tr>
+    <td>Fracture</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d7916de5399e878e06bc20bb4a36f5b8a8637050-515x515.webp?accountingTag=VAL&auto=format&fit=fill&q=80&w=515" width="5000px;" height="5000px;"></td>
+    <td>A top secret research facility split apart by a failed radianite experiment. With defender options as divided as the map, the choice is yours: meet the attackers on their own turf or batten down the hatches to weather the assault.</td>
+   </tr>
+    <tr>
+    <td>Breeze</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5e9322e5270fea63d82e956ba7d4ccffe95eb84a-515x515.png?accountingTag=VAL&auto=format&fit=fill&q=80&w=515" width="5000px;" height="5000px;"></td>
+    <td>Take in the sights of historic ruins or seaside caves on this tropical paradise. But bring some cover. You'll need them for the wide open spaces and long range engagements. Watch your flanks and this will be a Breeze.</td>
+   </tr>
+    <tr>
+    <td>Icebox</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/421063d481e9e1b2b5f2f834f53b7512f77413b9-2000x2000.jpg?accountingTag=VAL&auto=format&fit=fill&q=80&w=1781" width="5000px;" height="5000px;"></td>
+    <td>Your next battleground is a secret Kingdom excavation site overtaken by the arctic. The two plant sites protected by snow and metal require some horizontal finesse. Take advantage of the ziplines and they will never see you coming.</td>
+   </tr>
+    <tr>
+    <td>Ascent</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a31ef0d024e1add0214eb49698ca13e58f62d17e-641x641.jpg?accountingTag=VAL&auto=format&fit=fill&q=80&w=641" width="5000px;" height="5000px;"></td>
+    <td>An open playground for small wars of position and attrition divide two sites on Ascent. Each site can be fortified by irreversible bomb doors; once they are down, you will have to destroy them or find another way. Yield as little territory as possible.</td>
+   </tr>
+    <tr>
+    <td>Split</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/dc8a607601339a6c79c8d144c93e17915cde8ac9-515x513.jpg?accountingTag=VAL&auto=format&fit=fill&q=80&w=515" width="5000px;" height="5000px;"></td>
+    <td>If you want to go far, you will have to go up. A pair of sites split by an elevated center allows for rapid movement using two rope ascenders. Each site is built with a looming tower vital for control. Remember to watch above before it all blows sky-high.</td>
+   </tr>
+    <tr>
+    <td>Haven</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d9f3c040be38a8fc1f49f18d1221680419877c05-641x641.png?accountingTag=VAL&auto=format&fit=fill&q=80&w=641" width="5000px;" height="5000px;"></td>
+    <td>Beneath a forgotten monastery, a clamour emerges from rival Agents clashing to control three sites. There is more territory to control, but defenders can use the extra real estate for aggressive pushes.</td>
+   </tr>
+    <tr>
+    <td>Bind</td>
+    <td><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9c2f75aa4d00022c440615ce08988c7dd5f2bb00-641x641.png?accountingTag=VAL&auto=format&fit=fill&q=80&w=641" width="5000px;" height="5000px;"></td>
+    <td>Two sites. No middle. Gotta pick left or right. What is it going to be then? Both offer direct paths for attackers and a pair of one-way teleporters make it easier to flank.</td>
+   </tr>
+</table>
+</body>
+<style>
+:root{
+  --bg:#111823;
+  --accent:#e61b3c;
+  --text:#fff;
+}
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 24px;
+  background: linear-gradient(135deg, #0b1020 0%, #171f33 45%, #2b1338 100%);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(230,27,60,.18), transparent 35%),
+  radial-gradient(circle at bottom right, rgba(84,112,255,.16), transparent 30%);
+  pointer-events: none;
+  z-index: -1;
+  animation: drift 12s ease-in-out infinite alternate;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  text-align: center;
+  background: rgba(17,24,35,.95);
+  border: 2px solid rgba(255,255,255,.12);
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+}
+table, th, td {
+  border: 1px solid rgba(255,255,255,.12);
+}
+th, td {
+  padding: 12px;
+  vertical-align: middle;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+th:hover, td:hover {
+  background-color: rgba(255,255,255,.08);
+  transform: scale(1.01);
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 16px;
+  background: rgba(255,255,255,.12);
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,.24);
+  border-radius: 10px;
+  transition: background .18s ease, transform .18s ease;
+}
+.back-button:hover {
+  background: rgba(255,255,255,.18);
+  transform: translateY(-1px);
+}
+.back-button:hover {
+  background: rgba(255,255,255,.18);
+  transform: translateY(-1px);
+}
+
+/* Paste the search CSS here */
+.search-container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:25px 0;
+}
+
+#searchBar{
+    width:350px;
+    max-width:90%;
+    padding:12px 18px;
+    font-size:16px;
+    color:#ffffff;
+    background:#1f2937;
+    border:2px solid #ff4655;
+    border-radius:30px;
+    outline:none;
+    transition:0.3s ease;
+}
+
+#searchBar::placeholder{
+    color:#bdbdbd;
+}
+
+#searchBar:focus{
+    box-shadow:0 0 15px rgba(117, 3, 148, 0.7);
+    transform:scale(1.02);
+}
+</style>
+<script>
+function searchMaps() {
+    let input = document.getElementById("searchBar").value.toUpperCase();
+
+    // Get all table rows except the header
+    let rows = document.querySelectorAll("table tr");
+
+    rows.forEach(function(row, index) {
+
+        // Skip the table header
+        if(index === 0) return;
+
+        let firstCell = row.querySelector("td");
+
+        if(firstCell){
+            let mapName = firstCell.textContent.toUpperCase();
+
+            if(mapName.includes(input)){
+                row.style.display = "";
+            }else{
+                row.style.display = "none";
+            }
+        }
+    });
+}
+</script>
+</html>
